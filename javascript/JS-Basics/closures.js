@@ -72,10 +72,16 @@ var makeCounter = function () {
 */
 
   //Code Here
-var news = function () {
-    console.log("It's October")
-    
-}
+function fart(str) {
+    return str + " rocks!";
+} 
+
+console.log(fart("Spain"));
+console.log(fart("DevMountain"));
+
+var gassy = fart;
+
+console.log(gassy("Pizza"));
 
 
 //Next Problem
@@ -89,7 +95,9 @@ var news = function () {
 
 
 //Next Problem
-
+var fnCounter = function (parameter1, parameter2) {
+    
+}
 
 
 /*
@@ -104,14 +112,14 @@ var news = function () {
   Above you have a function named counter. Examine the function (without running the code) then below write what you expect to happen when the funciton is invoked. *Hint: setTimeout calls a function or evaluates an expression after a specified number of milliseconds.
 
     //Answer Here
-
+The function in this case the it will come out as undefined becasue the function timer() is empty and has no identity or something to call to. So that being the case, nothing will appear.
 
   Now, run the function in your console and note what happpens.
 
   Was your answer right or wrong?
 
     //Answer Here
-
+I was correct that the function would come out as undefined.
 
   Fix the counter function so that it works the way you expect it to work. (logging 1 then 2 then 3, etc)
 */
