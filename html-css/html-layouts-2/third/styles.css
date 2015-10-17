@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    margin: 0, 100px;
+    color: white;
+    line-height: 50px;
+}
+header.link1 {
+}
+/*
+.container {
+    column-gap: 40px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+*/
+
+.divcontain{
+    column-gap: 40px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+.divleft{
+display: inline;
+width: 50%;
+float: left;
+}
+
+divcontain.picture {
+display: inline;
+width: 50%;
+float: right;
+background-color: grey;
+height: 300px;
+}
+.divright{
+display: inline;
+width: 50%;
+float: right;
+}
+
+footer {
+    background-color: black;
+    margin: 0, 100px;
+    color: white;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+}

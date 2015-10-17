@@ -1,0 +1,75 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    
+}
+.clickBox {
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+}
+/* you can erase this */
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.image-box {
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background-color: #393939;
+    width: 100%;
+}
+.container2 {
+    padding-top: 20px;
+    width: 100%;
+}
+.apple {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    text-align: right;
+    float: right;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+}
+/*
+.google {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-align: right;
+    display: inline-block;
+    width: 90%;
+    float: right;
+    
+}
+*/
+
