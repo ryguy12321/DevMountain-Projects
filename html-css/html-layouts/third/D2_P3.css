@@ -1,0 +1,50 @@
+.top {
+    background-color: #D8D8D8;
+    width: 1024px;
+    height: 124px;
+}
+.littleSquare {
+    background-color: #2889FF;
+    float : left;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text {
+    width: 800px;
+    height: 175px;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.textBox {
+    background-color: white;    
+    width: 1024px;
+    height: 270px;
+}
+.row3 {
+    background-color: #6290E2;
+        width: 1024px;
+    height: 124px;
+}
+.row4 {
+    background-color: #A4E3C1;
+    width: 1024px;
+    height: 124px;
+}
+.row5 {
+    background-color: #B9E986;
+    width: 1024px;
+    height: 124px;
+}
+.row6 {
+    background-color: #F6E71A;
+    width: 1024px;
+    height: 124px;
+}
+/** {*/
+    outline: 1px solid red;
+}

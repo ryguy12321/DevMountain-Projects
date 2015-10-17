@@ -1,0 +1,31 @@
+.middle {
+    background-color: aquamarine;
+    height: 725px;
+    width: 225px;
+    float: left;
+}
+.left {
+    float: left;
+    background-color: #0099FF;
+    height: 725px;
+    width: 225px;
+}
+.right {
+    float: right;
+    width: 225px;
+    height: 425px;
+    width: 227px;
+    background-color: greenyellow;
+}
+footer {
+    height: 225px;
+    width: 227px;
+    float: right;
+    
+}
+/** {*/
+    outline: 1px solid red;
+}
+.stay {
+    position: absolute;
+}

@@ -1,0 +1,25 @@
+header {
+    height: 125px;
+    width: auto;
+    background-color: dimgrey;
+}
+.left {
+    height: 700px;
+    width: 12%;
+    background-color: gainsboro;
+    float: left;
+}
+.right {
+    height: 700px;
+    width: 12%;
+    background-color: gainsboro;
+    float: right;
+}
+footer {
+    height: 85px;
+    width: auto;
+    background-color: black;
+    margin-top: 615px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
