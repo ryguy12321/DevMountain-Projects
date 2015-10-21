@@ -145,4 +145,19 @@ I was correct that the function would come out as undefined.
   *Hint: Don't let this fool you. Break down what's really happening here.
 */
 
+var Array = function () {
+    for (var i = 0; i < 5; i++) {
+      return function () {
+          i++;
+            return ;
+      }
+    }
+}
 
+
+  funcArray[0](); //0
+  funcArray[1](); //1
+  funcArray[2](); //2
+  funcArray[3](); //3
+  funcArray[4](); //4
+  funcArray[5](); //5
